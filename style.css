@@ -23,7 +23,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 6px 20px;
-  border-radius: 2%;
+  border-radius: 5px;
 }
 
 .container h1 {
@@ -40,10 +40,23 @@ body {
 .display .icon {
   width: 30px;
   cursor: pointer;
-  color: #8CE4FF;
+  color: #FFC50F;
 }
 .display input{
     border: 0;
     outline: 0;
     font-size: 24px;
+}
+.container button{
+    border: 0;
+    outline: 0;
+    background: #FFC50F;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 5px;
 }
